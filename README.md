@@ -33,3 +33,6 @@ To install the tools, refer to https://facebookresearch.github.io/Aria_data_tool
 To access the data, refer to https://facebookresearch.github.io/Aria_data_tools/docs/howto/dataprovider/
 
 I used ./build/data_provider/examples/read_all <vrs_path> to read all the data out, which a little bit too much (preferably read only RGB images).
+
+## Data for pipeline testing
+https://drive.google.com/drive/folders/1RB-qnBBPgKp_h1hUWzKqx_9zi0winytx?usp=sharing
