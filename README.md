@@ -32,6 +32,4 @@ To install the tools, refer to https://facebookresearch.github.io/Aria_data_tool
 
 To access the data, refer to https://facebookresearch.github.io/Aria_data_tools/docs/howto/dataprovider/
 
-I used 
-< $ cd build/data_provider
-< $ ./read_all <vrs_path> # Read records of all streams verbosely
+I used ./build/data_provider/examples/read_all <vrs_path> to read all the data out, which a little bit too much (preferably read only RGB images).
