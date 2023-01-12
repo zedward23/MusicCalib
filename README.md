@@ -17,12 +17,21 @@ aria intrinsics parameters.
 ## static_gp.xml
 gopro intrinsics parameters. 
 
-
-## Others: 
-Use ffmpeg to extract videos into images. I use the resolution of 1920x1080 for gopro (half of the original resolution) to speed up the calculation. The gopro intrinsics parameters given are consistent with this resolution. Use the original resolution for aria glasses. 
-
+## Extract gopro videos 
+Use ffmpeg to extract videos into images. I use the resolution of 1920x1080 for gopro (half of the original resolution) to speed up the calculation. The gopro intrinsics parameters given are consistent with this resolution. 
 For room scan use fps=5.
 
 For static camera reconstruction, take a 1 minute clip of the video of playing and use fps=1 (60 images for each exo camera).
 
 For ego cameras, use fps=30.
+
+## Extract Aria videos 
+Extracting images from Aria glass is a bit messy. We need to use Aria's codebase which is recommended to run in a container. 
+
+To install the tools, refer to https://facebookresearch.github.io/Aria_data_tools/docs/Install/
+
+To access the data, refer to https://facebookresearch.github.io/Aria_data_tools/docs/howto/dataprovider/
+
+I used 
+< $ cd build/data_provider
+< $ ./read_all <vrs_path> # Read records of all streams verbosely
