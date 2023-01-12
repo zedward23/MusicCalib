@@ -12,5 +12,6 @@ export_data.py:
 Export camera location and orientation. 
 
 aria_rgb.xml: aria intrinsics parameters. 
+
 static_gp.xml: gopro intrinsics parameters. 
 
