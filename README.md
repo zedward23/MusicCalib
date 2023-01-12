@@ -11,3 +11,6 @@ I usually do 300 images as a batch. Let's try to do it iteratively to cover all 
 export_data.py:
 Export camera location and orientation. 
 
+aria_rgb.xml: aria intrinsics parameters. 
+static_gp.xml: gopro intrinsics parameters. 
+
